@@ -7,7 +7,7 @@ public class InputScanner {
 		
 //		System.out.println("Taking the Input from User");
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);  
 		
 //	    System.out.println("Enter total Max. Marks of all Subjects");
 		
