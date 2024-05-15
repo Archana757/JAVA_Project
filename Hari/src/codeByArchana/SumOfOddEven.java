@@ -10,7 +10,7 @@ public class SumOfOddEven
 		int n = r.nextInt();
 		int i;
 		int sum=0;
-		
+		r.close();
 		
 			if(n%2==0) 
 			{
@@ -25,7 +25,7 @@ public class SumOfOddEven
 			System.out.println("Sum of odd Number is : " + sum);	
 			}
 			
-		r.close();
+		
 
 	}
 

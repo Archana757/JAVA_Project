@@ -6,7 +6,7 @@ public class BetweenPrime
 	public static void main(String[] args)
 	{
 	  System.out.println("Enter First number..");
-	  Scanner sc=new Scanner(System.in);
+	  Scanner sc =new Scanner(System.in);
 	  int n1=sc.nextInt();
 	  System.out.println("Enter Second number..");
 	  int n2=sc.nextInt();
@@ -27,7 +27,8 @@ public class BetweenPrime
 	   {
 		   System.out.println("prime number is :" +num);
 	   }
+	   sc.close();
 	}
-	sc.close();
+	
 	}
 }
