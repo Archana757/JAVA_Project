@@ -37,29 +37,29 @@ public class Array_02
 		{
 		  System.out.print(a[i] + "  ");
 		}
-		int Max = a[0];
-		for(int i=1; i<a.length; i++)
+		int Max=a[0];
+		for(int i=0; i<a.length-1; i++)
 		{
-			if(Max<a[i])
+			if(a[i]<a[i+1])
 			{
-				Max = a[i];
+				 Max = a[i+1];
 			}
 		}
 		System.out.println("\nMaximum Element is : " +Max);
 		
 	
 		int Min = a[0];
-		for(int i=1; i<a.length; i++)
+		for(int i=0; i<a.length-1; i++)
 		{
-			if(Min>a[i])
+			if(a[i]>a[i+1])
 			{
-				Min=a[i];
+				Min=a[i+1];
 			}
 		}
 		System.out.println("Minimum Element is : " +Min);
 		
 	
-	
+	sc.close();
 	
 	
 	

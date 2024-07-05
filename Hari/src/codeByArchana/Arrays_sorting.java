@@ -63,7 +63,7 @@ public class Arrays_sorting {
 			System.out.print(c[i] +" ");		
 		}
 		
-		
+		 
 		
 		
 		sc.close();

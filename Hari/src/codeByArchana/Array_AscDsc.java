@@ -57,7 +57,7 @@ public class Array_AscDsc
 		System.out.print(a[i] +" ");
 
 		}
-
+        sc.close();
 		}
 	
     
